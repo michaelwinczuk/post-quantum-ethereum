@@ -1,3 +1,45 @@
+# Post-Quantum Ethereum
+
+Open-source research and tooling for Ethereum's post-quantum cryptographic migration.
+
+> **Relevant to**: [@CISA](https://github.com/CISA) | [@AWS](https://github.com/aws) | [@OpenAI](https://github.com/openai) | [@ethereum](https://github.com/ethereum)
+>
+> This repository addresses NIST PQC migration — a priority for federal infrastructure (CISA), cloud providers (AWS), AI systems handling sensitive data (OpenAI), and blockchain networks (Ethereum).
+
+## Repository Contents
+
+| Document | Description |
+|---|---|
+| [`README.md`](README.md) | This file — project overview and ESP grant proposal |
+| [`briefs/pq-discovery-tool_brief.json`](briefs/pq-discovery-tool_brief.json) | Architect brief for `pq-discovery` — a Rust CLI that scans codebases for quantum-vulnerable cryptography |
+| [`swarm-blueprint.json`](swarm-blueprint.json) | Architectural blueprint of the Think Tank Swarm research system |
+
+## Projects
+
+### 1. STARK-Based ML-DSA Signature Aggregation (ESP Grant Proposal)
+
+A STARK arithmetic circuit for batched ML-DSA-65 signature verification on Ethereum's execution layer, deployed through ERC-4337 Account Abstraction. Complementary to the EF's leanSig/leanMultisig consensus-layer work.
+
+**Status**: Proposal complete, targeting EF Ecosystem Support Program
+
+### 2. pq-discovery — Post-Quantum Cryptography Scanner
+
+An open-source Rust CLI tool that scans directory trees for RSA-2048, RSA-4096, ECC (secp256k1, P-256, P-384, Ed25519, X25519), and other quantum-vulnerable primitives. Outputs structured JSON/SARIF reports with NIST PQC replacement recommendations.
+
+**Status**: Research brief complete, ready for architect build
+
+## Research
+
+All research produced by the [Think Tank Swarm](https://github.com/michaelwinczuk/think-tank-swarm) — a multi-agent AI research system with 89 agents across 14 knowledge clusters.
+
+## License
+
+MIT / Apache-2.0 dual license
+
+---
+
+# ESP Grant Proposal
+
 # STARK-Based ML-DSA Signature Aggregation for Post-Quantum Ethereum Transactions
 
 **Execution-Layer Post-Quantum Migration via Recursive Proof Compression**
@@ -564,7 +606,6 @@ This proposal is the direct implementation of that recommendation.
 
 ---
 
-*This proposal was produced by the Think Tank Swarm, a multi-agent AI research system developed and designed by Michel Winczuk with assistance from Clause opus 4.6. The research synthesizes findings from 29 specialized subject-matter experts across 6 domain clusters. We welcome feedback, collaboration, and design review from the EF PQ team and the broader Ethereum research community.*
+*This proposal was produced by the Think Tank Swarm, a multi-agent AI research system. The research synthesizes findings from 29 specialized subject-matter experts across 6 domain clusters. We welcome feedback, collaboration, and design review from the EF PQ team and the broader Ethereum research community.*
 
-*Contact: (https://x.com/smartcontr67332)
-https://www.linkedin.com/in/michael-winczuk/
+*Contact: [To be added upon team assembly]*
