@@ -1,6 +1,6 @@
 # pq-discovery — Post-Quantum Cryptography Scanner
 
-> **Relevant to**: [@CISA](https://github.com/CISA) | [@AWS](https://github.com/aws) | [@OpenAI](https://github.com/openai)
+> **Relevant to**:  [@AWS](https://github.com/aws) | [@OpenAI](https://github.com/openai)
 >
 > Scans codebases for quantum-vulnerable cryptography and recommends NIST PQC replacements.
 > Critical for federal CNSA 2.0 compliance, cloud infrastructure hardening, and AI system security.
