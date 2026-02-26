@@ -564,6 +564,7 @@ This proposal is the direct implementation of that recommendation.
 
 ---
 
-*This proposal was produced by the Think Tank Swarm, a multi-agent AI research system. The research synthesizes findings from 29 specialized subject-matter experts across 6 domain clusters. We welcome feedback, collaboration, and design review from the EF PQ team and the broader Ethereum research community.*
+*This proposal was produced by the Think Tank Swarm, a multi-agent AI research system developed and designed by Michel Winczuk with assistance from Clause opus 4.6. The research synthesizes findings from 29 specialized subject-matter experts across 6 domain clusters. We welcome feedback, collaboration, and design review from the EF PQ team and the broader Ethereum research community.*
 
-*Contact: [To be added upon team assembly]*
+*Contact: (https://x.com/smartcontr67332)
+https://www.linkedin.com/in/michael-winczuk/
